@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -50,6 +50,10 @@
           ></a>
         </ul>
       </div>
+
+      <button class="navbar-toggle" aria-label="Menu">
+        <i data-feather="menu"></i>
+      </button>
     </nav>
 
     <div id="home">
@@ -166,6 +170,13 @@
 
     <script>
       feather.replace();
+      const toggle = document.querySelector(".navbar-toggle");
+      const nav = document.querySelector(".navbar");
+      if (toggle && nav) {
+        toggle.addEventListener("click", () => {
+          nav.classList.toggle("open");
+        });
+      }
     </script>
   </body>
 </html>
