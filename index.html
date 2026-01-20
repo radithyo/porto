@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hayoo Ngapain tes</title>
+    <link rel="icon" type="image/png" href="/img/alya.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Bubblegum+Sans&family=Instrument+Serif:ital@0;1&family=Italianno&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home">RZS</a>
+      </div>
+
+      <div class="navbaricon">
+        <input type="search" placeholder="Search" />
+        <i data-feather="search"></i>
+      </div>
+
+      <div class="navbaritem">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">skills</a>
+        <a href="#Project">Project</a>
+        <ul>
+          |
+          <a href="https://www.instagram.com/radithyo_/" target="_blank"
+            ><i data-feather="instagram"></i
+          ></a>
+          <a href="https://github.com/radithyo" target="_blank"
+            ><i data-feather="github"></i
+          ></a>
+          <a href="img/pp.png" download="CV_Radithyo"
+            ><i data-feather="download"></i
+          ></a>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="home">
+      <h1>walcome</h1>
+      <div class="pembukaan">
+        <p>To My Poertofolio</p>
+      </div>
+      <a href="#about"><button class="button-container">lets start</button></a>
+    </div>
+
+    <section id="about">
+      <h1>About Me</h1>
+      <div class="about-container">
+        <img src="img/alya.png" alt="Foto Profil Radithyo" class="Foto" />
+        <div class="about-text">
+          <h3>Hi, Saya Radithyo!</h3>
+          <p>
+            Saya seorang pelajar yang tertarik pada dunia teknologi, desain, dan
+            pengembangan web. Saya suka belajar hal baru dan membuat proyek
+            kreatif seperti website atau aplikasi edukasi.
+          </p>
+          <p>
+            Tujuan saya adalah terus berkembang dan berbagi karya yang
+            bermanfaat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div id="skills">
+      <h1>Skill</h1>
+      <div class="skills-container">
+        <div>
+          <img
+            src="https://th.bing.com/th/id/OIP.jNbT2B3djkHhPP2j7LAadwHaHa?w=193&h=193&c=7&r=0&o=7&pid=1.7&rm=3"
+            alt="HTML"
+            class="skills-img"
+          />
+        </div>
+        <div>
+          <img
+            src="https://th.bing.com/th/id/OIP.9dFf9CDx1Xk7RgNRs2jkvgHaHa?w=180&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+            alt="TS"
+            class="skills-img"
+          />
+        </div>
+        <div>
+          <img
+            src="https://th.bing.com/th/id/OIP.-Q1YMkAdJwXSWbe-qbJk6AHaHa?w=178&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+            alt="CSS"
+            class="skills-img"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="Project">
+      <h1>Project</h1>
+      <div class="project-container">
+        <div class="project-item">
+          <img src="img/L-1 - .png" alt="Project 1" class="project-item" />
+        </div>
+        <div class="project-item">
+          <img src="img/KARAKTER_1.png" alt="Project 2" class="project-item" />
+        </div>
+        <div class="project-item"></div>
+        <div class="project-item"></div>
+        <div class="project-item"></div>
+        <div class="project-item"></div>
+        <div class="project-item"></div>
+        <div class="project-item"></div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <form action="https://formspree.io/f/xovovone" method="POST">
+        <label>
+          Your email:
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            class="contact-input"
+          />
+        </label>
+        <label>
+          Your nama:
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            class="contact-input"
+          />
+        </label>
+        <label>
+          Your message:
+          <textarea
+            name="message"
+            class="contact-message"
+            placeholder="Enter your message"
+          ></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <input type="hidden" name="_format" value="plain" />
+        <button type="submit" class="btn-contact">
+          Send <i data-feather="send"></i>
+        </button>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; 2025. All rights reserved.</p>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
